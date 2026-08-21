@@ -1,0 +1,20 @@
+# Fichiers sensibles
+.env
+*.db
+*.log
+
+# Environnement virtuel
+.venv/
+venv/
+env/
+
+# Dossiers de compilation
+dist/
+dist_nuitka/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# Fichiers Streamlit locaux
+.streamlit/secrets.toml
